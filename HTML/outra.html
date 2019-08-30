@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Aula 3 Grau Tecnico</title>
+    <link rel="icon" href="emblema.jpg" type="image/x-icon" />
+</head>
+
+<body>
+    Começando a aula
+    <h3>Titulos</h3>
+    <h1 id="titulo1">Titulo de nivel 1</h1>
+    <h2>Titulo de nivel 2</h2>
+    <h3>Titulo de nivel 3</h3>
+    <h4>Titulo de nivel 4</h4>
+    <h5>Titulo de nivel 5</h5>
+    <h6>Titulo de nivel 6</h6>
+    <hr/>
+    <h3>Parágrafos</h3>
+    <p>Aqui estou mais um dia</p>
+    <p>Sob o olhar sanguinário do vigia...</p>
+    <p>Você não sabe como é caminhar com a cabeça na mira de uma AK</p>
+    <p>Metralhadora alemã ou de israel estrachala ladrão que nem papel</p>
+    <pre>
+        Bad to the bone. 
+            B-b-b-b-b-b-b-bad. 
+               B-b-b-b-b-b-b-bad. 
+
+    </pre>
+    <hr/>
+
+    <h3>Formatação de Texto</h3>
+    <p>Texto em Negrito com <b> bold</b> e <strong> strong</strong>.</p>
+    <p>Texto com Italico com<i> italics</i> e <em> emphasis</em>.</p>
+    <p>Texto <sup> sobrescrito</sup> e<sub> subscrito</sub>.</p>
+    <p>Texto<ins> inserido</ins> e <del> excluido</del>.</p>
+    <p>Texto<small> pequeno</small> e<mark> destacado</mark>.</p>
+    <p>My favorite color is <del>Blue</del></p>
+    <p>WWF's goal is to:<q> Build a future where people live in harmony with nature</q></p>
+    <p>The <abbr title="World Health Organization"> WHO</abbr> was founded in 1948.</p>
+    <p></p>
+    <hr/>
+    <h3>IMAGENS</h3>
+    <!--A ordem não influencia é possivel utilizar por exemplo title,alt ou src por exemplo-->
+    <img src="icone.png" alt="Texto Alternativo" title="Avatar" />
+    <img src="arquivo_inexistente.jpg" alt="Texto Alternativo" title="Outra Figura" />
+    <hr/>
+    <h3>LINKs</h3>
+    <a href="outra22.html">Página Local</a><br/>
+    <a target="_blank" href="https://www.google.com.br/">Google</a><br/>
+    <a href="#titulo1">Ancora</a>
+    <hr/>
+    <h3>Tabela Simples</h3>
+    <table>
+        <tr>
+            <!--definição da linha tr-->
+            <td> Linha 1,Coluna 1</td>
+            <!--definição de coluna td-->
+            <td> Linha 2,Coluna 2</td>
+        </tr>
+        <tr>
+            <td> Linha 2,Coluna 1</td>
+            <td> Linha 2, Coluna 2</td>
+        </tr>
+        <tr>
+            <td> Linha 3,Coluna 1</td>
+            <td> Linha 3, Coluna 2</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th> Linha 1, Coluna 1</th>
+
+            <td> Linha 2, Coluna 2</td>
+        </tr>
+
+    </table>
+    <hr/>
+    <h3>OLD ZORO</h3>
+    <img src="sleep.jpg" alt="Sleep face" height="780" width="600">
+    <hr/>
+    <h2>
+        <b>
+            <i>
+                    PINK FLOID COVER THE VOICE
+            </i>
+
+        </b>
+    </h2>
+    <hr/>
+    <h3>TABELA complexa</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Feijão</td>
+                <td>R$ 8,75</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Arroz</td>
+                <td>R$ 4,99</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td></td>
+                <td>R$ 18,73</td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr/>
+    <h3>Lista numerada</h3>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <hr/>
+    <h3>Lista simples</h3>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <hr/>
+    <h3>Lista de definição</h3>
+    <dl>
+        <dt>Título 1</dt>
+        <dd>Definição 1</dd>
+        <dt>Título 2</dt>
+        <dd>Definição 2</dd>
+        <dt>Título 3</dt>
+        <dd>Definição 3</dd>
+    </dl>
+
+    <hr/>
+    <h3>Formulários</h3>
+
+    <form action="salvar_dados.php" method="post">
+        <input type="text" placeholder="Digite aqui"> <br/>
+        <input type="number" placeholder="Digite aqui"> <br/>
+        <input type="color" placeholder="Digite aqui"> <br/>
+
+        <input type="checkbox">Checkbox <br/>
+        <input type="radio">Radio button <br/>
+        <input type="radio">Radio button <br/>
+        <input type="radio">Radio button <br/>
+        <input type="range"> <br/>
+        <select name="" id="">
+            <option value="1">Opção 1</option>
+            <option value="2">Opção 2</option>
+            <option value="3">Opção 3</option>
+        </select><br/>
+        <textarea name="message" rows="10" cols="30">
+        The cat was playing in the garden.
+        </textarea><br/>
+        <input type="submit" value="Enviar">
+        <button>Click me</button>
+    </form>
+
+
+    <hr/>
+    <video width="320" height="240" controls><source src="pinkfloid.mp4" type="video/mp4">           
+    </video>
+    <hr/>
+    <audio controls><source src="tu.mp3" type="audio/ogg">       
+    </audio>
+
+    <iframe width="699" height="393" src="https://www.youtube.com/embed/xDE1LotmAqY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <hr/>
+    <iframe width="699" height="393" src="https://www.youtube.com/embed/NBddFJ9ytVM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <hr/>
+
+    <form>
+        <hr/>
+        <h3>AUDIO</h3>
+        <audio controls src="frozen-the-voice-australia-2019.mp3"> Seu browser não suporta áudio.</audio>
+
+    </form>
+    <hr/>
+    <h3>DIV</h3>
+    <input type="text" value="insira">
+    <input type="text" value="insira">
+    <div><input type="text" value="insira"></div>
+    <div><input type="text" value="insira"></div>
+
+    <hr/>
+    <h3>SPAN</h3>
+    <p>Este é um texto com um <span>trecho em destaque</span>.</p>
+    <p>
+        Este é um texto com um <span style="background: #1abc9c; border-radius:5px; padding:5px">trecho em destaque</span>.
+
+    </p>
+    <hr/>
+    <div><input type="text"></div>
+    <div><input type="text"></div>
+    <hr/>
+    <input type="text">
+    <input type="text">
+
+    <nav>
+        <a href="/hmTl/">HTML</a>
+        <a href="CCS/">CCS</a>
+
+
+
+    </nav>
+
+</body>
+
+</html>
